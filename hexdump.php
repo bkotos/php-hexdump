@@ -3,6 +3,9 @@
 define('BINARY_FLAG', '-b');
 define('OCTAL_FLAG', '-o');
 
+/**
+ * @param string[] $arguments
+ */
 function main(array &$arguments)
 {
     $hasStdIn = ftell(STDIN) !== false;
