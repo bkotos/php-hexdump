@@ -1,0 +1,15 @@
+{
+    "name": "bkotos/php-hexdump",
+    "description": "A PHP utility for dumping the bytes of a file or stream as hexadecimal or binary.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brian Kotos",
+            "email": "brian.kotos@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    }
+}
