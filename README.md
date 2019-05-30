@@ -1,5 +1,5 @@
 # php-hexdump
-A PHP utility for dumping the bytes of a file or stream as hexadecimal or binary. 
+A PHP utility for dumping the bytes of a file or stream as hexadecimal, octal, or binary. 
 
 ## Usage
 **php-hexdump** accepts a path argument representing the file it should read
