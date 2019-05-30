@@ -69,7 +69,7 @@ function main(array &$arguments)
 
 /**
  * @param string $argumentFlag
- * @param array $arguments
+ * @param string[] $arguments
  * @return bool
  */
 function argumentFlagExists(string $argumentFlag, array &$arguments): bool
@@ -85,6 +85,11 @@ function argumentFlagExists(string $argumentFlag, array &$arguments): bool
     return false;
 }
 
+/**
+ * @param bool $hasStdIn
+ * @param string|null $filename
+ * @return resource|bool|null
+ */
 function getFile(bool $hasStdIn, string $filename = null)
 {
     if ($hasStdIn) {
@@ -100,7 +105,7 @@ function getFile(bool $hasStdIn, string $filename = null)
  * @param int $bytesPerLine
  * @param int $colsPerByte
  * @param string $line
- * @param array $bytes
+ * @param string[] $bytes
  * @param string $chars
  * @return string
  */
