@@ -1,3 +1,9 @@
+# ⚠️ DEPRECATED
+
+This repository is deprecated. Please see [bkotos/hexdump](https://github.com/bkotos/hexdump) instead.
+
+---
+
 # php-hexdump
 A PHP utility for dumping the bytes of a file or stream in hexadecimal, octal, or binary. 
 
